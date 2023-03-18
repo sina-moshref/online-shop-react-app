@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.notification {
+  margin-top: 0.5rem;
+  position: fixed;
+  top: 0;
+  width: 45%;
+  height: 3rem;
+  background-color: #1a8ed1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2%;
+  align-items: center;
+  color: white;
+  border-radius: 7px;
+}
+
+.notification h2,
+.notification p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.error {
+  background-color: #690000;
+}
+
+.success {
+  background-color: rgba(17, 221, 136, 0.753);
+}
+
+.fade {
+  animation: fade 3000ms ease-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
